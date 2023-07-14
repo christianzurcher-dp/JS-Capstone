@@ -1,5 +1,5 @@
-const email = "christian@devpipeline.com";
-const pass = "One2threesf@1";
+const email = "";
+const pass = "";
 const people = [];
 const baseChance = [];
 const chance = [];
@@ -34,7 +34,6 @@ async function getAll() {
     });
     const allUsers = await res.json();
     resObject = allUsers;
-    console.log(resObject);
   } catch (error) {
     console.error("Error: ", error);
   }
